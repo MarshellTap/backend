@@ -1,0 +1,34 @@
+{
+	"name": "marshell-backend",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"axios": "^1.7.3",
+		"cloudflare-r2-sdk": "^1.0.1",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.2.0",
+		"express": "^4.19.2",
+		"fs": "^0.0.1-security",
+		"graphql": "^16.9.0",
+		"graphql-http": "^1.22.1",
+		"graphql-iso-date": "^3.6.1",
+		"graphql-type-decimal": "^1.0.0",
+		"http": "^0.0.1-security",
+		"moment-timezone": "^0.5.45",
+		"mysql2": "^3.10.3",
+		"nodemon": "^3.1.4",
+		"path": "^0.12.7",
+		"sequelize": "^6.37.3",
+		"sequelize-paginate": "^1.1.6",
+		"sharp": "^0.33.4",
+		"socket.io": "^4.7.5",
+		"telegraf": "^4.16.3",
+		"twitter-api-v2": "^1.17.2"
+	}
+}
